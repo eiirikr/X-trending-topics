@@ -24,63 +24,69 @@
 		} */
 
 		footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-      }
-
-      .fa-globe,
-      .fa-facebook,
-      .fa-telegram,
-      .fa-instagram,
-      .fa-tiktok {
-        font-size: 25px;
-        color: white;
-        margin: 0 10px 0 10px;
-      }
-
-      .fa-globe:hover,
-      .fa-facebook:hover,
-      .fa-telegram:hover,
-      .fa-instagram:hover,
-      .fa-tiktok:hover {
-        color: gray;
-      }
+		        display: flex;
+		        justify-content: center;
+		        align-items: center;
+		        padding: 10px;
+	      	}
+	
+	      .fa-globe,
+	      .fa-facebook,
+	      .fa-telegram,
+	      .fa-instagram,
+	      .fa-tiktok {
+		        font-size: 25px;
+		        color: white;
+		        margin: 0 10px 0 10px;
+	      	}
+	
+	      .fa-globe:hover,
+	      .fa-facebook:hover,
+	      .fa-telegram:hover,
+	      .fa-instagram:hover,
+	      .fa-tiktok:hover {
+	        	color: gray;
+	      	}
 	</style>
 
 </head>
 <body class="bg-dark">
 	<div class="p-5">
-		<h1 class="text-light text-center mb-3">Trending Topics of the <span id="date"></span></h1>
+		<h1 class="text-light text-center mb-3">Trending Topics of <span id="date"></span></h1>
 
 		<canvas id="myChart"></canvas>
 	</div>
 
 	<footer>
-      <a href="https://eiirikr.github.io/portfolio-website/" target="_blank"
-        ><i class="fa-solid fa-globe"></i
-      ></a>
-
-      <a href="https://www.facebook.com/eiirikr/" target="_blank"
-        ><i class="fa-brands fa-facebook"></i
-      ></a>
-
-      <a href="https://t.me/eirikurr" target="_blank"
-        ><i class="fa-brands fa-telegram"></i
-      ></a>
-
-      <a href="https://www.instagram.com/eiirikr_" target="_blank"
-        ><i class="fa-brands fa-instagram"></i
-      ></a>
-
-      <a href="https://www.tiktok.com/@eiirikr_" target="_blank"
-        ><i class="fa-brands fa-tiktok"></i
-      ></a>
-    </footer>
+	      <a href="https://eiirikr.github.io/portfolio-website/" target="_blank"
+	        ><i class="fa-solid fa-globe"></i
+	      ></a>
+	
+	      <a href="https://www.facebook.com/eiirikr/" target="_blank"
+	        ><i class="fa-brands fa-facebook"></i
+	      ></a>
+	
+	      <a href="https://t.me/eirikurr" target="_blank"
+	        ><i class="fa-brands fa-telegram"></i
+	      ></a>
+	
+	      <a href="https://www.instagram.com/eiirikr_" target="_blank"
+	        ><i class="fa-brands fa-instagram"></i
+	      ></a>
+	
+	      <a href="https://www.tiktok.com/@eiirikr_" target="_blank"
+	        ><i class="fa-brands fa-tiktok"></i
+	      ></a>
+    	</footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+	<!-- Fontawesome Scripts -->
+    	<script
+	      src="https://kit.fontawesome.com/078b3494fc.js"
+	      crossorigin="anonymous"
+	></script>
+	
 	<script type="text/javascript" src="./index.js"></script>
 
 </body>
